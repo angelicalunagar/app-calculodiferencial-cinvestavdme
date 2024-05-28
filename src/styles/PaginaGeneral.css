@@ -1,0 +1,37 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr; /* Dos columnas del mismo tamaño */
+  grid-gap: 10px; /* Espacio entre celdas */
+  padding-top: 6.8rem;
+  height: auto;
+  margin-bottom: 5.5rem;
+}
+
+.tit{
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  font-weight: bold;
+}
+
+.grid-col1 {
+  margin-right: 5em;
+  margin-left: 5rem;
+}
+
+.grid-col2{
+  overflow: hidden;
+}
+
+.img{
+  width: auto; 
+  height: 24.5rem; 
+  object-fit: cover; 
+} 
+
+.box-text {
+  text-align: justify;
+  border-radius: 20px;
+  padding: 1.5rem 2.5rem; 
+  text-align: center;
+}

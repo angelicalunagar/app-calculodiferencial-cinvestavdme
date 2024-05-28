@@ -1,0 +1,23 @@
+/* Estilos para los botones del Sidebar */
+.sidebar-button {
+ color: white;
+ background-color: #011627;
+ border: none;
+ padding-left: 0;
+ 
+}
+
+.sidebar-button:hover {
+  font-weight: bold; /* Texto en negrita al pasar el puntero */
+}
+
+.sidebar-button.selected {
+  font-weight: bold;
+} 
+
+/* Estilos para el Sidebar */
+.sidebar {
+  background-color: #011627; /* Fondo del sidebar */
+  color: white; /* Texto en blanco */
+}
+

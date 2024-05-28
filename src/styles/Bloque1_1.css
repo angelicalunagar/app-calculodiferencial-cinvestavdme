@@ -1,0 +1,306 @@
+p {
+  text-align: justify;
+  border-top: 1rem;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.act6-center{
+  display: flex;
+  flex-direction: column; /* Alineación vertical */
+  justify-content: center; /* Centrado vertical */
+  align-items: center; /* Centrado horizontal */
+  margin: 1rem;
+}
+
+.imagen-col {
+  height: 180px;
+  margin: 1.4rem 0.4rem;
+}
+
+.main-row {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  /* justify-content: center; */
+}
+
+.row-nuevotema {
+  margin-top: 4rem;
+  margin-bottom: 1.5px;
+}
+.mi-col {
+  display: flex;
+  align-items: flex-end; 
+  justify-content: center;
+}
+
+.custom-input {
+  border: none;
+  border-radius: 8px;
+  background-color: #fddfb9;
+  padding: 8px;
+  width: 70%; 
+  text-align: center;
+}
+
+.custom-gif {
+  height: 60vh;
+}
+
+.tittle-table {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #636262;
+}
+.fullscreen {
+  position: fixed;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  border: 3px solid #0a58ca; 
+  box-shadow: 0px 0px 20px 3px #0a58ca;
+}
+
+
+
+.input-eval {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 8px;
+  width: 4rem; 
+  text-align: center;
+}
+
+.input-coord {
+  border: none;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 8px;
+  width: 100px; 
+  text-align: center;
+}
+
+
+
+.input-act2 {
+  border-color: #ffecd1;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 8px;
+  width: 22rem; 
+  text-align: center;
+}
+
+.input-act5 {
+  border-color: #ffecd1;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 8px;
+  width: 18rem; 
+  text-align: center;
+}
+
+.input-act8 {
+  border-color: #ffecd1;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 8px;
+  width: 7rem; 
+  text-align: center;
+}
+
+
+.input-act3 {
+  border-color: #ffecd1 ;
+  border-radius: 8px;
+  background-color: #ffecd1;
+  padding: 5px;
+  width: 14rem; 
+  text-align: center;
+
+}
+
+.input-tabla6 {
+  border-color: #ffecd1;
+  border-radius: 8px;
+  background-color: #ffc;
+  padding: 8px;
+  width: 5.5rem; 
+  text-align: center;
+}
+
+.actividad {
+  background-color: #ffc596; 
+  padding: 16px;
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.row-act {
+  justify-content: center;
+}
+
+.row-car {
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+}
+
+
+.col-iceCreamMan img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.borde-redon {
+  border-radius: 8px;
+}
+
+/* Estilos para centrar la tabla de la actividad 1*/
+.cont-table-act1 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.actividad ul {
+  list-style-type: none;
+}
+
+.actividad > ul > li {
+  counter-increment: item;
+  margin-bottom: 16px;
+}
+
+.actividad > ul > li::before {
+  content: counter(item, upper-roman) ". ";
+  font-weight: bold;
+}
+
+/* Estilo para los elementos de segundo nivel */
+.actividad > ul ul > li {
+  list-style-type: none;
+
+}
+
+.justified-list li {
+  text-align: justify;
+  margin-bottom: 1.8rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .cont-table-act1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cont-table-act1 {
+    width: 100%;
+  }
+}
+
+/* Estilos para centrar la tabla de la actividad 3*/
+.cont-table-act3 {
+  width: 85%;
+  justify-content: center;
+  text-align: center;
+}
+
+.cont-table-fr {
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .cont-table-act3 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .cont-table-act3 {
+    width: 100%;
+  }
+}
+
+.prueba {
+  justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.sticky {
+  position: sticky;
+  top: 7rem; /* Ajusta esta propiedad según sea necesario */
+}
+
+.sticky-act13 {
+  position: sticky;
+  top: 2.7rem; /* Ajusta esta propiedad según sea necesario */
+}
+
+.sticky-act16 {
+  position: sticky;
+  top: 3.8rem; /* Ajusta esta propiedad según sea necesario */
+}
+
+.center-act10 {
+  padding-top: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.cuest-fr li {
+  list-style-type: diamond;
+}
+
+.li-preg-reflex li{
+  list-style-type: square;
+ padding: 0.4rem;
+}
+
+
+
+.botones-grafica {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+
+.grafica-quiz {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.blockquote-custom {
+  padding: 20px 40px;
+  margin: 20px 0;
+  border-left: 5px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.punto-centrado {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center"
+}

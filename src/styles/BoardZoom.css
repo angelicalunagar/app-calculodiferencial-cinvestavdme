@@ -1,0 +1,23 @@
+.button-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.button-container button {
+  background-color: rgba(1, 22, 39, 0.5); /* Color de fondo verde */
+  border: none;
+  color: white;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button-container button:hover {
+  background-color: #0b5ed7; /* Color de fondo verde más oscuro al pasar el mouse */
+}

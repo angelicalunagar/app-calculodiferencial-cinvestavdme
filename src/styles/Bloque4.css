@@ -1,0 +1,15 @@
+.bloque4-contenedor{
+  background-color: #f5f6f7;
+  padding-top: 6.6rem;
+}
+
+.h-center {
+  justify-content: center;
+  text-align: center; 
+}
+
+
+.button-azul {
+  background-color: #011627;
+  color: #fff;
+}

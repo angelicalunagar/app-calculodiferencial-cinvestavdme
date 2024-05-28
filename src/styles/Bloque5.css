@@ -1,0 +1,14 @@
+.bloque5-contenedor {
+  background-color: #f5f6f7;
+  justify-content: center;
+  text-align: center;
+  padding-top: 6.6rem;
+  width: 100%;
+}
+
+.bold {
+  font-size: x-large;
+  font-style: italic;
+  color: red;
+  font-weight: 100;
+}
