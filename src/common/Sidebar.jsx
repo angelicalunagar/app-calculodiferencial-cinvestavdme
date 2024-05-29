@@ -3,7 +3,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 
 import VarDepYVarIndep from "./VarDepYVarIndep/VarDepYVarIndep";
 import ReglaDeCorrespondencia from "./ReglaDeCorrespondencia/ReglaDeCorrespondencia";
-import EvaluarLaReglaDeCorrespon from "./EvaluarLaReglaDeCorrespon/EvaluarLaReglaDeCorrespon";
+/* import EvaluarLaReglaDeCorrespon from "./EvaluarLaReglaDeCorrespon/EvaluarLaReglaDeCorrespon";
 import ValoresVarIndep from "./ValoresVarIndep";
 import ValoresVarDependiente from "./ValoresVarDependiente/ValoresVarDependiente";
 import QueEsFuncion from "./QueEsFuncion";
@@ -13,7 +13,7 @@ import TablaDeFuncion from "./TablaDeFuncion/TablaDeFuncion";
 import GraficosDeFunciones from "./GraficosDeFunciones/GraficosDeFunciones";
 import FuncLineales from "./FuncionesLineales/FuncLineales";
 import FuncionesCuadraticas from "./FuncionesCuadraticas/FuncionesCuadraticas";
-import FunPolinomiales from "./FuncionesPolinomiales.jsx/FunPolinomiales";
+import FunPolinomiales from "./FuncionesPolinomiales.jsx/FunPolinomiales"; */
 import "../styles/Sidebar.css";
 
 function Sidebar({ show, close }) {
@@ -32,7 +32,7 @@ function Sidebar({ show, close }) {
         return <VarDepYVarIndep />;
       case "ReglaDeCorrespondencia":
         return <ReglaDeCorrespondencia />;
-      case "EvaluarLaReglaDeCorrespon":
+      /* case "EvaluarLaReglaDeCorrespon":
         return <EvaluarLaReglaDeCorrespon />;
       case "ValoresVarIndep":
         return <ValoresVarIndep />;
@@ -53,7 +53,7 @@ function Sidebar({ show, close }) {
       case "FuncionesCuadraticas":
         return <FuncionesCuadraticas />;
       case "FunPolinomiales":
-        return <FunPolinomiales />;
+        return <FunPolinomiales />; */
 
       default:
         return null;
@@ -94,7 +94,7 @@ function Sidebar({ show, close }) {
                 Regla de correspondencia
               </button>
             </li>
-            <li>
+            {/* <li>
               <button
                 onClick={() =>
                   setSelectedComponent("EvaluarLaReglaDeCorrespon")
@@ -213,7 +213,7 @@ function Sidebar({ show, close }) {
               >
                 Funciones Polinomiales
               </button>
-            </li>
+            </li> */}
           </ul>
         </Offcanvas.Body>
       </Offcanvas>
